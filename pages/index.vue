@@ -34,7 +34,8 @@
 			</v-col>
 		</v-row> -->
 
-		<v-row id="intro-section" class="page-section" justify="center" align="center" no-gutters>
+		<full-page :options="navigation" id="fullpage">
+		<v-row id="intro-section" class="section page-section" justify="center" align="center" no-gutters>
 			<v-col
 				cols="12"
 				class="content-wrapper d-flex"
@@ -73,7 +74,7 @@
 				</v-sheet>
 			</v-col>
 		</v-row>
-		<v-row class="page-section" justify="center" align="center" no-gutters>
+		<v-row class="section page-section" justify="center" align="center" no-gutters>
 			<v-col
 				cols="12"
 				class="content-wrapper d-flex"
@@ -97,7 +98,7 @@
 				</v-sheet>
 			</v-col>
 		</v-row>
-		<v-row class="page-section" justify="center" align="center" no-gutters>
+		<v-row class="section page-section" justify="center" align="center" no-gutters>
 			<v-col
 				cols="12"
 				class="content-wrapper d-flex"
@@ -121,7 +122,7 @@
 				</v-sheet>
 			</v-col>
 		</v-row>
-		<v-row class="page-section" justify="center" align="center" no-gutters>
+		<v-row class="section page-section" justify="center" align="center" no-gutters>
 			<v-col
 				cols="12"
 				class="content-wrapper d-flex"
@@ -136,6 +137,7 @@
 				</v-sheet>
 			</v-col>
 		</v-row>
+		</full-page>
 
 		<v-row no-gutters>
 			<v-col
